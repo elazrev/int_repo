@@ -8,7 +8,7 @@ def greeting(name, **kwargs):
 if __name__ == '__main__':
 
     name = input("What is your name? :")
-    print(greeting(name))
+    print(greeting(name) + f"\nhow are you?")
 
 
 
