@@ -1,38 +1,56 @@
-"""
-Operators in Python:
-+ plus => add
-- minus => 
-* duplicate
-/ divide
-% modulo
-// divide without remain
-** power
-"""
+# number_1 = 9
+# number_2 = 4
+#
+# text_1 = "alex"
+# text_2 = "komanov"
+#
+# print(f"{text_1} + {text_2} = {(text_1 + text_2)}")
+#
+# print(f"{number_1} + {number_2} = {(number_1 + number_2)}")
+# print(number_1, " + ", number_2, " = ", (number_1 + number_2))
+#
+# print(f"{number_1} - {number_2} = {(number_1 - number_2)}")
+#
+# text_1 = "**"
+# print(f"{text_1} * {number_2} = {(text_1 * number_2)}")
+#
+# print(f"{number_1} * {number_2} = {(number_1 * number_2)}")
+# print(type(number_1 * number_2))
+#
+# number_3 = 2.0
+#
+# print(f"{number_1} * {number_3} = {(number_1 * number_3)}")
+# print(type(number_1 * number_3))
+#
+# print(f"{number_1} / {number_2} = {(number_1 / number_2)}")
+#
+# number_1 = 2
+# number_2 = 5
+# print(f"{number_1} ** {number_2} = {(number_1 ** number_2)}")
 
-num_1 = 5
-num_2 = 3
-str_1 = '*'
-strings_list = [
-    print(f'{num_1} + {num_2} = {num_1 + num_2}'),   #plus
-    print(f'{num_1} - {num_2} = {num_1 - num_2}'),   #minus
-    f'{num_1} * {num_2} = {num_1 * num_2}',   #duplicate
-    f'{num_1} / {num_2} = {num_1 / num_2}',   #divide
-    f'{num_1} % {num_2} = {num_1 % num_2}',   #modulo
-    f'{num_1} // {num_2} = {num_1 // num_2}',   #divide without reamain
-    f'{num_1} ** {num_2} = {num_1 ** num_2}',   #power
-    # Possible arithmetic with chars
+# ----------------------------------------
 
-    f'{str_1} * {num_2} = {str_1 * num_2}',   #duplicate
-    f'{str_1} % {num_2} = {str_1 % num_2}',   #modulo
-                ]
+number_1 = 15
+number_2 = 5
+print(f"{number_1} // {number_2} = {(number_1 // number_2)}")
 
-def print_if_possible(string):
-    try:
-        eval_result = eval(string.split('=')[1])  # Evaluate the expression after '='
-        print(string + " =", eval_result)
-    except:
-        print(f'"{string}" is not a legal syntax')
+number_1 = 16
+number_2 = 5
+print(f"{number_1} / {number_2} = {(number_1 / number_2)}")
+print(f"{number_1} // {number_2} = {(number_1 // number_2)}")    # 16 : 5 = 3   -> 3 * 5 => 15 + (1) -> 16
+print(f"{number_1} % {number_2} = {(number_1 % number_2)}")
 
+number_1 = 20
+number_2 = 5
+print(f"{number_1} / {number_2} = {(number_1 / number_2)}")
+print(f"{number_1} // {number_2} = {(number_1 // number_2)}")
+print(f"{number_1} % {number_2} = {(number_1 % number_2)}")
 
-for string in strings_list:
-    print(eval(string))
+number_1 = 5
+number_2 = 15
+print(f"{number_1} / {number_2} = {(number_1 / number_2)}")
+print(f"{number_1} // {number_2} = {(number_1 // number_2)}")
+print(f"{number_1} % {number_2} = {(number_1 % number_2)}")
+
+print(25 % 2)
+print(24 % 2)
